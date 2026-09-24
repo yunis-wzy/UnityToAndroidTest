@@ -1,0 +1,22 @@
+# Local Android SDK configuration and IDE state
+/local.properties
+/.idea/
+*.iml
+.DS_Store
+
+# Gradle and native build outputs (keep the bundled IL2CPP build tools)
+.gradle/
+.cxx/
+.externalNativeBuild/
+/build/
+/launcher/build/
+/unityLibrary/build/
+/unityLibrary/symbols/
+
+# Unity diagnostic output
+/*_BurstDebugInformation_DoNotShip/
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Local signing credentials
+*.keystore
+*.jks
